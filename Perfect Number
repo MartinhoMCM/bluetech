@@ -1,6 +1,6 @@
 # bluetech
 Here are some files like .java,  .html
-import java.utik.Scanner;
+import java.util.Scanner;
 public class NumeroPerfeito{
 Scanner input = new Scanner (System.in);
 int n =input.nextInt();
