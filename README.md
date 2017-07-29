@@ -1,0 +1,15 @@
+# bluetech
+Here are some files like .java,  .html
+import java.utik.Scanner;
+public class NumeroPerfeito{
+Scanner input = new Scanner (System.in);
+int n =input.nextInt();
+int soma=0;
+for(int i=1; i<n; i++)
+  if(i%n==0)
+  soma+=i;
+ if(soma==n)
+  System.out,println("numero Perfeito");
+ else 
+ System.out.prinln("não é perfeito");
+}
